@@ -62,10 +62,3 @@ searchBar.addEventListener('keyup', function(e){
     });
 });
 
-// filter categories
-function test(){
-    var lista = document.getElementsByClassName('category');
-    var book = document.getElementsByClassName('li');
-    alert(lista.length);
-    alert(book.length);
-}
